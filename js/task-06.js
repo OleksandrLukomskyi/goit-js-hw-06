@@ -7,6 +7,8 @@ function onInputBlur(event) {
   ) {
     dataLengthRef.classList.add('valid');
     dataLengthRef.classList.remove('invalid');
-  } else dataLengthRef.classList.add('invalid');
-  dataLengthRef.classList.remove('valid');
+  } else {
+    dataLengthRef.classList.add('invalid');
+    dataLengthRef.classList.remove('valid');
+  }
 }
